@@ -6,7 +6,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     var password = document.getElementById('password').value;
 
     // Verificação simples para demonstrar (substitua com a lógica de verificação real)
-    if (username === 'adm' && password === '123') {
+    if (username === 'adm' && password === '527630') {
         window.location.href = 'index.html';
     } else {
         document.getElementById('error').style.display = 'block';
